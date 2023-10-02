@@ -1,75 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Trước khi chạy lệnh npm run dev anh nên truy cập https://foody-9vwj.onrender.com/ để khởi động api. Cái này tại em chưa thành thạo backend nên hơi ba chấm, anh chịu khó giúp em nha.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Danh sách chức năng:
+-Trang chủ: load danh sách sản phẩm flash sale, load danh sách sản phẩm theo loại
+- Sản phẩm: load danh sách sản phẩm, load danh sách sản phẩm theo loại, sắp xếp danh sách sản phẩm, phân trang (1 trang có 8 sản phẩm)
+- Chi tiết sả phẩm: load thông tin sản phẩm theo id, load danh sách sản phẩm theo loại
+- Giỏ hàng: thêm sản phẩm vào giỏ hàng, cập nhật số lượng, xóa sản phẩm
+- Thanh toán (sau khi click thanh toán trong giỏ hàng thông tin giỏ hàng sẽ gửi về phía service xong xóa các phẩm hiện có trong giỏ hàng hiện tại)
