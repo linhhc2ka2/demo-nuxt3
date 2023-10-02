@@ -1,5 +1,7 @@
 # Trước khi chạy lệnh npm run dev anh nên truy cập https://foody-9vwj.onrender.com/ để khởi động api. Cái này tại em chưa thành thạo backend nên hơi ba chấm, anh chịu khó giúp em nha.
 
+Tất cả các trang điều được responsive
+
 Danh sách chức năng:
 -Trang chủ: load danh sách sản phẩm flash sale, load danh sách sản phẩm theo loại
 - Sản phẩm: load danh sách sản phẩm, load danh sách sản phẩm theo loại, sắp xếp danh sách sản phẩm, phân trang (1 trang có 8 sản phẩm)
